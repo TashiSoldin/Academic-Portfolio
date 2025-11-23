@@ -278,7 +278,7 @@ img {
 
 .project-image {
     position: relative;
-    aspect-ratio: 10 / 9;
+    aspect-ratio: 4 / 3;
     overflow: hidden;
     background-color: var(--secondary);
 }
