@@ -66,10 +66,10 @@
                     </div>
                     <div class="project-content">
                         <div class="project-info">
-                            <h3 class="project-title">Integrating Satellite Remote Sensing with Machine Learning for Ocean Health Assessment</h3>
+                            <h3 class="project-title">Satellite-Based Ocean Oxygen Prediction</h3>
                             <p class="project-institution">University of Michigan - Capstone</p>
                             <p class="project-description">
-                                Developed a machine learning pipeline to predict surface ocean dissolved oxygen concentrations from satellite remote sensing data for global ocean health monitoring. Integrated in-situ measurements from NOAA's World Ocean Database with NASA MODIS-Aqua satellite observations via Google Earth Engine API. Implemented comprehensive data processing including temporal filtering, deduplication, and spatial imputation to merge 125,000+ oceanographic measurements with coincident satellite data. Conducted feature engineering across seven categories (temperature transformations, spectral band ratios, normalized indices) and evaluated five ML architectures (Linear Regression, Random Forest, XGBoost, LightGBM, Neural Networks) with temporal cross-validation to prevent data leakage. Final XGBoost model achieved R² of 0.73 on geographically distinct test locations, demonstrating successful generalization of latitudinal oxygen gradients for potential early detection of ocean deoxygenation events.
+                                Developed a machine learning pipeline to predict surface ocean dissolved oxygen from NASA MODIS-Aqua satellite data for global ocean health monitoring. Integrated 125,000+ in-situ measurements from NOAA's World Ocean Database with satellite observations via Google Earth Engine, implementing comprehensive feature engineering and temporal cross-validation across five ML architectures.
                             </p>
                         </div>
                         <div class="project-tags">
@@ -80,11 +80,8 @@
                             <span class="tag">Data Pipeline Development</span>
                             <span class="tag">Feature Engineering</span>
                             <span class="tag">XGBoost</span>
-                            <span class="tag">Hyperparameter Tuning</span>
-                            <span class="tag">Environmental Monitoring</span>
                             <span class="tag">Geospatial Analysis</span>
                             <span class="tag">Time Series Cross-Validation</span>
-                            <span class="tag">Ocean Science</span>
                         </div>
                         <div class="project-actions">
                             <a href="https://github.com/TashiSoldin/SIADS699-Capstone" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-outline">
@@ -102,7 +99,7 @@
                 <!-- Project 2 UofM Milestone 2-->
                 <div class="project-card" style="animation-delay: 150ms">
                     <div class="project-image">
-                        <img src="Images/UofM/Ocean.jpg" alt="Ocean Health Monitoring with Machine Learning">
+                        <img src="Images/UofM/Ocean.jpg" alt="Ocean Dissolved Oxygen Prediction from Oceanographic Variables">
                         <div class="project-overlay"></div>
                     </div>
                     <div class="project-content">
@@ -110,21 +107,18 @@
                             <h3 class="project-title">Ocean Health Monitoring with Machine Learning</h3>
                             <p class="project-institution">University of Michigan - Milesone II</p>
                             <p class="project-description">
-                                Developed machine learning models to predict dissolved oxygen concentrations in ocean waters using NOAA's World Ocean Database, achieving R² of 0.98 with an optimized Random Forest model. Processed 1.9M oceanographic observations through a systematic pipeline including cast-level salvageability analysis, intra-cast interpolation, and pressure-depth regression imputation to produce 602,900 complete records. Implemented and compared five model architectures (Linear Regression, Ridge, Random Forest, Gradient Boosting, Neural Networks) with comprehensive hyperparameter tuning and temporal cross-validation. Conducted in-depth failure analysis using SHAP feature attribution to identify three distinct failure mechanisms: depth-nutrient relationship mislearning, geographic undersampling bias, and data quality violations. Complemented predictive modeling with unsupervised clustering analysis (K-Means, Agglomerative, DBSCAN, HDBSCAN) to identify water mass similarities across spatial and chemical dimensions for ecosystem monitoring.
+                                Built machine learning models to predict dissolved oxygen concentrations using NOAA's World Ocean Database, processing 1.9M oceanographic observations through a systematic data pipeline. Conducted failure analysis using SHAP explainability and complemented predictive modeling with unsupervised clustering to identify water mass similarities for ecosystem monitoring.
                             </p>
                         </div>
                         <div class="project-tags">
                             <span class="tag">Machine Learning</span>
                             <span class="tag">Python</span>
                             <span class="tag">Random Forest</span>
-                            <span class="tag">Neural Networks</span>
                             <span class="tag">Clustering Analysis</span>
                             <span class="tag">SHAP Explainability</span>
                             <span class="tag">Data Pipeline Development</span>
                             <span class="tag">Feature Engineering</span>
                             <span class="tag">Hyperparameter Tuning</span>
-                            <span class="tag">Oceanographic Data</span>
-                            <span class="tag">Dimensionality Reduction</span>
                             <span class="tag">Geospatial Analysis</span>
                         </div>
                         <div class="project-actions">
@@ -148,17 +142,17 @@
                     </div>
                     <div class="project-content">
                         <div class="project-info">
-                            <h3 class="project-title">Climate Change & Mortality Analysis</h3>
+                            <h3 class="project-title">Climate Change and Mortality Analysis</h3>
                             <p class="project-institution">University of Michigan - Milesone I</p>
                             <p class="project-description">
-                                Conducted a comprehensive global analysis of the relationship between climate change and mortality using climate, population, and WHO mortality datasets spanning 130 countries. Designed and implemented a full data processing pipeline to harmonize climate (temperature, max temperature, precipitation) and mortality data across multiple sources, resolving country-level inconsistencies, restructuring wide-format datasets, engineering climate differentials, aggregating ICD-10 causes of death, and creating population-adjusted mortality metrics. Performed exploratory analysis and correlation studies to identify climate-sensitive demographic and cause-of-death categories, revealing stronger relationships with absolute temperature than with climate anomalies, particularly for older populations and circulatory, neoplasm, and mental health–related mortality. Delivered critical insights into data limitations, geographic biases, vulnerability patterns, and methodological considerations for future climate–health research.
+                                Conducted a global analysis of climate-mortality relationships across 130 countries by harmonizing climate, population, and WHO mortality datasets. Designed a full data processing pipeline to integrate disparate sources and performed correlation studies to identify climate-sensitive demographic patterns.
                             </p>
                         </div>
                         <div class="project-tags">
                             <span class="tag">Python</span>
                             <span class="tag">Pandas</span>
-                            <span class="tag">Data Cleaning</span>
                             <span class="tag">Data Integration</span>
+                            <span class="tag">Data Cleaning</span>
                             <span class="tag">Feature Engineering</span>
                             <span class="tag">Exploratory Data Analysis</span>
                             <span class="tag">Data Visualization</span>
@@ -180,10 +174,10 @@
                     </div>
                     <div class="project-content">
                         <div class="project-info">
-                            <h3 class="project-title">Machine Learning Classification System</h3>
+                            <h3 class="project-title">Loan Default Prediction System</h3>
                             <p class="project-institution">MIT ADSP - Capstone Project</p>
                             <p class="project-description">
-                                Built a machine learning system to predict home-equity loan defaults for a financial institution, improving early risk detection and supporting more consistent, data-driven lending decisions. Conducted comprehensive exploratory data analysis, feature engineering, and model development using Logistic Regression, Decision Trees, Random Forests, and Gradient Boosting, including full hyperparameter optimization. Identified credit-history variables (delinquencies, derogatory marks, credit age, debt-to-income ratio) as the strongest predictors of default. Delivered a hybrid risk-tiering framework combining an optimized Random Forest for accuracy with an explainable Decision Tree for regulatory transparency, enabling targeted reviews, reduced default exposure, and improved underwriting efficiency.
+                                Built a machine learning system to predict home-equity loan defaults, identifying credit-history variables as the strongest predictors of default risk. Delivered a hybrid risk-tiering framework combining ensemble methods for accuracy with decision trees for regulatory transparency.
                             </p>
                         </div>
                         <div class="project-tags">
@@ -219,12 +213,12 @@
                     </div>
                     <div class="project-content">
                         <div class="project-info">
-                            <h3 class="project-title">Machine Learning Lead Conversion Prediction for EdTech Startup</h3>
+                            <h3 class="project-title">Lead Conversion Prediction for EdTech Startup</h3>
                             <p class="project-institution">MIT ADSP - Elective Project</p>
                             <p class="project-description">
-                                Built a machine learning system to predict lead conversion for an EdTech startup, identifying high-potential customers to optimize resource allocation and marketing strategies. Conducted exploratory data analysis, feature engineering, model implementation, and hyperparameter tuning to develop optimized classification models including Decision Trees and Random Forests. Delivered actionable recommendations for lead scoring systems and targeted marketing campaigns to improve conversion rates and sales efficiency.
+                                Developed a classification system to predict lead conversion for an EdTech startup, enabling targeted marketing and optimized resource allocation. Implemented decision tree and ensemble models with hyperparameter tuning to identify high-potential customers.
                             </p>
-                        </div>
+                        </div> 
                         <div class="project-tags">
                             <span class="tag">Python</span>
                             <span class="tag">Machine Learning</span>
@@ -256,7 +250,7 @@
                             <h3 class="project-title">Water Usage Prediction from Remote Sensing for Invasive Plant Management</h3>
                             <p class="project-institution">University of Cape Town - Honours Thesis</p>
                             <p class="project-description">
-                                Developed a machine learning model to predict water consumption of invasive alien plants threatening South Africa's water security using satellite remote sensing data. Combined Landsat 8 multispectral data with flux tower ground truth measurements to train five ML models (Neural Networks, RNN, LSTM, Random Forest, SVM) in estimating evapotranspiration. This Honours thesis work established the foundation for mapping invasive plant distribution and informing targeted management strategies across South Africa.
+                                Developed machine learning models to predict water consumption of invasive alien plants using Landsat 8 satellite data and flux tower ground truth measurements. Established a foundation for mapping invasive plant distribution to inform water resource management strategies across South Africa.
                             </p>
                         </div>
                         <div class="project-tags">
@@ -291,16 +285,17 @@
                     </div>
                     <div class="project-content">
                         <div class="project-info">
-                            <h3 class="project-title">Automated Bird Weight Measurement Scale</h3>
+                            <h3 class="project-title">Automated Bird Weight Measurement System</h3> 
                             <p class="project-institution">University of Cape Town - Engineering Design</p>
                             <p class="project-description">
-                                Designed and implemented an autonomous bird weight measurement system for ornithological research in the Kalahari Desert. Developed a perch-based scale with ESP32 microcontroller, load cell sensors, and Wi-Fi data transmission. Created a custom data processing algorithm to accurately measure bird weights (0.1g accuracy) from dynamic readings while the bird is in motion.
+                                Designed an autonomous bird weighing system for ornithological research in the Kalahari Desert using ESP32 microcontroller and load cell sensors. Developed a custom algorithm to extract accurate weight measurements from dynamic sensor readings during bird activity.
                             </p>
                         </div>
                         <div class="project-tags">
                             <span class="tag">Engineering Design</span>
                             <span class="tag">Embedded Systems</span>
                             <span class="tag">Sensor Integration</span>
+                            <span class="tag">Signal Processing</span>
                             <span class="tag">Data Processing</span>
                             <span class="tag">C++</span>
                             <span class="tag">Power Management</span>
@@ -326,15 +321,16 @@
                     </div>
                     <div class="project-content">
                         <div class="project-info">
-                            <h3 class="project-title">Hand-Drawn Circuit Component Classification using Convolutional Neural Networks</h3>
-                            <p class="project-institution">University of Cape Town - DSP</p>
+                            <h3 class="project-title">Circuit Component Classification using Convolutional Neural Networks</h3>
+                            <p class="project-institution">University of Cape Town - Digital Signal Processing</p>
                             <p class="project-description">
-                                Developed a machine learning system for classifying hand-drawn electrical circuit components using Convolutional Neural Networks (CNNs) as part of the Digital Signal Processing (DSP) course. Implemented and compared three approaches: basic CNN, CNN with data augmentation, and CNN with transfer learning (VGG16, ResNet50, InceptionV3).
+                                Built a convolutional neural network system for classifying hand-drawn electrical circuit components. Compared basic CNN, data augmentation, and transfer learning approaches using VGG16, ResNet50, and InceptionV3 architectures.
                             </p>
                         </div>
                         <div class="project-tags">
                             <span class="tag">Python</span>
                             <span class="tag">TensorFlow/Keras</span>
+                            <span class="tag">Deep Learning</span>
                             <span class="tag">Transfer Learning</span>
                             <span class="tag">Data Augmentation</span>
                             <span class="tag">Image Classification</span>
@@ -362,21 +358,20 @@
                     </div>
                     <div class="project-content">
                         <div class="project-info">
-                            <h3 class="project-title">Versatile Accelerated Digital Encryption Recovery (VADER) System</h3>
-                            <p class="project-institution">University of Cape Town - HPES</p>
+                            <h3 class="project-title">FPGA-Based Password Recovery System</h3>
+                            <p class="project-institution">University of Cape Town - High Performance Embedded Systems</p>
                             <p class="project-description">
-                                Designed and implemented an FPGA-based password recovery system for MD5-hashed passwords using parallel processing techniques as part of the High Performance Embedded Systems (HPES) course. Developed both dictionary and brute-force attack methods on a Nexys4 DDR board, achieving a speedup of 10.78x over sequential Python implementation. Created modular Verilog architecture with parallel supervisor modules managing multiple MD5 hashers to efficiently recover encrypted passwords.
-                            </p>
+                                Designed an FPGA-based system for recovering MD5-hashed passwords using parallel processing on a Nexys4 DDR board. Implemented dictionary and brute-force attack methods with modular Verilog architecture managing multiple parallel MD5 hashers.
                         </div>
                         <div class="project-tags">
                             <span class="tag">Verilog HDL</span>
                             <span class="tag">FPGA Design</span>
                             <span class="tag">Python</span>
                             <span class="tag">Xilinx Vivado</span>
-                            <span class="tag">MD5 Hashing</span>
                             <span class="tag">Parallel Processing</span>
-                            <span class="tag">Nexys4 DDR</span>
                             <span class="tag">Hardware Acceleration</span>
+                            <span class="tag">Nexys4 DDR</span>
+                            <span class="tag">Cryptography</span>
                         </div>
                         <div class="project-actions">
                             <a href="https://github.com/TashiSoldin/EEE4120F-Project" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-outline">
@@ -400,9 +395,9 @@
                     <div class="project-content">
                         <div class="project-info">
                             <h3 class="project-title">Lead Controller Design for Helicopter Altitude Stabilization</h3>
-                            <p class="project-institution">University of Cape Town - Control</p>
+                            <p class="project-institution">University of Cape Town - Control Systems</p>
                             <p class="project-description">
-                                Designed and implemented analog and digital lead controllers for helicopter altitude control using MATLAB simulation and analog circuit design. Developed frequency-domain and root-locus based controller designs to achieve specified settling time and overshoot requirements. Built and tested physical circuit implementation real-time helicopter altitude regulation.
+                                Designed analog and digital lead controllers for helicopter altitude stabilization using frequency-domain and root-locus methods. Built and tested physical circuit implementations for real-time altitude regulation.
                             </p>
                         </div>
                         <div class="project-tags">
@@ -410,9 +405,10 @@
                             <span class="tag">Control Systems Design</span>
                             <span class="tag">Lead/Lag Compensators</span>
                             <span class="tag">Root Locus Analysis</span>
-                            <span class="tag">Frequency Domain Analysis</span>
+                            <span class="tag">Frequency Response Analysis</span>
                             <span class="tag">Analog Circuit Design</span>
                             <span class="tag">Digital Control</span>
+                            <span class="tag">System Modeling</span>
                         </div>
                         <div class="project-actions">
                             <!-- <a href="https://github.com/yourusername/web-app" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-outline">
@@ -438,7 +434,7 @@
                             <h3 class="project-title">ARM-Based Data Compression and Encryption System for IMU Sensors</h3>
                             <p class="project-institution">University of Cape Town - Engineering Design</p>
                             <p class="project-description">
-                                Designed and implemented a data compression and encryption system for an ARM-based STM32F051 microcontroller to process IMU sensor data from ice buoys in the Southern Ocean.
+                                Implemented a data compression and encryption system on an STM32 microcontroller for processing IMU sensor data from ice buoys in the Southern Ocean. Integrated LZSS compression and AES encryption for efficient and secure data transmission.
                             </p>
                         </div>
                         <div class="project-tags">
@@ -450,7 +446,7 @@
                             <span class="tag">AES Encryption</span>
                             <span class="tag">I2C/UART Communication</span>
                             <span class="tag">Signal Processing</span>
-                            <span class="tag">IMU Sensors (ICM-20948)</span>
+                            <span class="tag">IMU Sensors</span>
                         </div>
                         <div class="project-actions">
                             <a href="https://github.com/TashiSoldin/EEE3097S-Project" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-outline">
